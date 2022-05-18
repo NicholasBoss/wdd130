@@ -6,7 +6,7 @@
 
 body {
     background-color: #87F1FF;
-    font-family: "Dancing Script";
+    font-family: "EB Garamond";
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -19,7 +19,11 @@ h2 {
 header {
     text-align: center;
     background-color: #D5A021;
-    font-family: "EB Garamond";
+    font-family: "Dancing Script";
+}
+
+header .logo {
+    width: 80px;
 }
 
 #logo_link {
@@ -29,10 +33,14 @@ header {
 .home-title {
     font-size: 2em;
     margin-top: 10px;
+    font-family: "Dancing Script";
 }
 
-header .logo {
-    width: 80px;
+.home-grid {
+    text-align: center;
+}
+.home-grid h2 {
+    font-family: "Dancing Script";
 }
 
 nav a:hover {
@@ -74,9 +82,7 @@ main section img {
     background-color: #D5A021;
 }
 
-.home-grid {
-    text-align: center;
-}
+
 
 .book, .join {
     background-color: #D5A021;
@@ -85,6 +91,7 @@ main section img {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    font-family: "Dancing Script";
 }
 
 .book:hover, .join:hover {
@@ -104,6 +111,7 @@ main section img {
     color: darkmagenta;
     line-height: 1.5em;
     padding: 35px;
+    font-family: "EB Garamond";
 }
 
 .msg h2 {
