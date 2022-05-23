@@ -39,12 +39,9 @@ header .logo {
 .home-grid {
     text-align: center;
 }
+
 .home-grid h2 {
     font-family: "Dancing Script";
-}
-
-nav a:hover {
-    background-color: #FB62F6;
 }
 
 nav a {
@@ -52,6 +49,10 @@ nav a {
     margin: 0 auto;
     text-decoration: none;
     padding: 35px;
+}
+
+nav a:hover {
+    background-color: #FB62F6;
 }
 
 #hero-img {
