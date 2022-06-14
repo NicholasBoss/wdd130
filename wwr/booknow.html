@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html" target="_blank">
+                <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+            </a>
+            <nav>
+                <a href="index.html" target="_blank">Home</a>
+                <a href="booknow.html" target="_self">Book Now</a>
+                <a href="site-plan-rafting.html" target="_blank">Site Plan</a>
+                <a href="#">Contact us</a>
+            </nav>
+        </header>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/river-wide.jpg" alt="People enjoying white water rafting">
+            </div>
+            <section id="hero-msg">
+                <h1 class="home-title">Book Now</h1>
+                <h4>Complete the form below to begin your adventure</h4>
+            </section>
+        </div>
+        <h2 class="heading">Our Packages</h2>
+        <div class ="bookgrid">
+                <section class="GCThreeNight">
+                    <img id="canyon" src="./images/GrandCanyon1.jpg" alt="Image of Grand Canyon">
+                    <h2>Grand Canyon</h2>
+                    <h2>Three Night Trip</h2>
+                    <h3>Price: $1,475</h3>
+                    <p>Dates: Included in information packet</p>
+                </section>
+                <section class="GCSixNight">
+                    <img id="canyon" src="./images/GrandCanyon2.jpg" alt="Image of Grand Canyon">
+                    <h2>Grand Canyon</h2>
+                    <h2>Six Night Trip</h2>
+                    <h3>Price: $2,550</h3>
+                    <p>Dates: Included in information packet</p>
+                </section>
+                <section class="SalmonFiveNight">
+                    <img id="salmon" src="./images/SalmonRiver.jpg" alt="Image of Salmon River">
+                    <h2>Salmon River</h2>
+                    <h2>Five Night Trip</h2>
+                    <h3>Price: $1,540</h3>
+                    <p>Dates: Included in information packet</p>
+                </section>
+                <section class="DesolationSixNight">
+                    <img id="desolation" src="./images/DesolationCanyon.jpg" alt="Image of Desolation Canyon">
+                    <h2>Desolation</h2>
+                    <h2>Six Night Trip</h2>
+                    <h3>Price: $1,790</h3>
+                    <p>Dates: Included in information packet</p>
+                </section>
+            <div id="book-now">
+                <h1>Book Now</h1>
+                <p>Enter your name and email to get our information packet regarding the trip you select</p>
+                <form action="booknow.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="package">Package:</label>
+                        <select name="package" id="package">
+                            <option value="Please select a package">Please select a package</option>
+                            <option value="GCThreeNight">Grand Canyon Three Night Trip</option>
+                            <option value="GCSixNight">Grand Canyon Six Night Trip</option>
+                            <option value="SalmonFiveNight">Salmon River Five Night Trip</option>
+                            <option value="DesolationSixNight">Desolation Six Night Trip</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input type="reset" name="button" id="button" value="Book Now">
+                    </div>
+            </div>
+        </div>       
+        <footer>
+            <h3>Dry Oar &copy; 2022 - Nicholas Boss</h3>
+            <h3><a href="site-plan-rafting.html" target="_blank">Site Plan</a></h3>
+            <h3><a href="contactus.html" target="_blank">Contact Us</a></h3>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
